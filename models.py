@@ -17,7 +17,7 @@ class stockage(BaseModel):
     id:int
     name:str 
     description:str|None= None
-    supplier:str
+    supplier:str # Tu as oubblié la quantité (très important dans la logique de gestion de stock)
     
 class transation(BaseModel):
     id:int
