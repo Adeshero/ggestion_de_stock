@@ -11,7 +11,7 @@ class userProfile(BaseModel):
     id :int 
     firstName:str
     lastName:str
-    passphrase:str
+    passphrase:str #attention mec
     
 class stockage(BaseModel):
     id:int
