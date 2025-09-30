@@ -23,5 +23,5 @@ class transation(BaseModel):
     id:int
     title:str
     description:str
-    makeAt:datetime 
+    makeAt:datetime # Là tu as oublié de mentionner le user qui a fait la transaction
     
