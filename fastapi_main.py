@@ -21,7 +21,7 @@ def login(userName:str ="jordane", userPassword:str =None):
        else :
            return "password error"
            
-
+# tres belles routes mais la validation est assez légère. Utilise pydantics
             
         
     
