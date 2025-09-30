@@ -11,7 +11,7 @@ class userProfile(BaseModel):
     id :int 
     firstName:str
     lastName:str
-    passphrase:str #attention mec
+    passphrase:str #attention mec (le mot de passe ne doit pas pouvoir etre vu aussi facilement... Je conseille même de ne jamais l'afficher ou faire même des requetes avec sauf si nécessaire)
     
 class stockage(BaseModel):
     id:int
